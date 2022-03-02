@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.MmustWhatsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#DB5860</item>
-        <item name="colorPrimaryVariant">#99710C</item>
+        <item name="colorPrimary">#0D49D6</item>
+        <item name="colorPrimaryVariant">#20BBF7</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
