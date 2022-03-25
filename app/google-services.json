@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "726247043322",
+    "project_id": "josephine-afb4a",
+    "storage_bucket": "josephine-afb4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726247043322:android:31861ecf37c4002f805943",
+        "android_client_info": {
+          "package_name": "com.example.mmustwhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726247043322-mirgjjuqc3hl95nfou2l6vglqj2qmkai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZzlMotd_xw6D-Ep-nncejJDlLeOtv0JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726247043322-mirgjjuqc3hl95nfou2l6vglqj2qmkai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
