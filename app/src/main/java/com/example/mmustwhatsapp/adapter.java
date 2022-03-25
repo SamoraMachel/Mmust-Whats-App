@@ -9,13 +9,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.ListAdapter;
-
-import java.lang.reflect.Array;
-import java.util.List;
 
 public class adapter extends ArrayAdapter<profile> {
-
     public adapter(@NonNull Context context, @NonNull profile[] objects) {
         super(context, 0, objects);
     }
@@ -23,17 +18,14 @@ public class adapter extends ArrayAdapter<profile> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View root = LayoutInflater.from(getContext()).inflate(R.layout.single_item, parent, false);
+        View inflater = LayoutInflater.from(getContext()).inflate(R.layout.single_item, parent, false);
+        profile single_user = getItem(position);
 
-        profile user = getItem(position);
+        TextView username = inflater.findViewById(R.id.username);
+        TextView lastText = inflater.findViewById(R.id.lastText);
 
-        TextView username =  root.findViewById(R.id.username);
-        TextView lastText = root.findViewById(R.id.lastText);
-
-        username.setText(user.getName());
-        lastText.setText(user.getText());
-
-
-        return root;
+        username.setText(single_user.getName());
+        lastText.setText(single_user.getText());
+        return inflater;
     }
 }

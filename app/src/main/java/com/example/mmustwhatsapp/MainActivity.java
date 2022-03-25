@@ -16,25 +16,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         profile[] arraylist= {
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
-                new profile("Mary", "image name", "Hey"),
+                new profile("Mary",  "image name", "Hey"),
+                new profile("Joseph", "image name", "Hey"),
+                new profile("Kevin", "image name", "Hey"),
+                new profile("Daasha", "image name", "Hey"),
+                new profile("Collins", "image name", "Hey"),
+                new profile("Brigid", "image name", "Hey"),
+                new profile("Josephine", "image name", "Hey"),
+                new profile("Terry", "image name", "Hey"),
+                new profile("Maxwel", "image name", "Hey"),
+                new profile("Joseph", "image name", "Hey"),
+                new profile("Mike", "image name", "Hey"),
+                new profile("Omar", "image name", "Hey"),
         };
-        String[] sample = {"Damora", "Machel"};
 
 
         ListView profileList = findViewById(R.id.profile_list);
-
-        profileList.setAdapter(new adapter(getApplicationContext(), arraylist));
+        profileList.setAdapter(new adapter(this, arraylist));
 
     }
 }
