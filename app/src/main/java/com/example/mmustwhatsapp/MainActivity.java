@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 new profile("Joseph", "image name", "Hey"),
                 new profile("Mike", "image name", "Hey"),
                 new profile("Omar", "image name", "Hey"),
-        };
+                new profile("Jonte Prime", "image name", "Oyaa Buda")};
 
 
         ListView profileList = findViewById(R.id.profile_list);
